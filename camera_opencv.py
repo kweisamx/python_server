@@ -3,8 +3,8 @@ from base_camera import BaseCamera
 
 
 class Camera(BaseCamera):
-    video_source = "http://140.113.207.67:8080/"
-
+    #video_source = "http://140.113.207.67:8080/"
+    video_source = 0
     @staticmethod
     def set_video_source(source):
         Camera.video_source = source
