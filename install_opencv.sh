@@ -1,7 +1,7 @@
 #!/bin/bash
 git clone https://github.com/opencv/opencv.git
 git clone https://github.com/opencv/opencv_contrib.git
-sudo apt-get install ffmpeg libavresample-dev libavutil-dev libavcodec-dev libavformat-dev libswscale-dev -y
+sudo apt-get install ffmpeg libavresample-dev libavutil-dev libavcodec-dev libavformat-dev libswscale-dev libgtk2.0-dev -y
 sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools libgstreamer-plugins-base1.0-dev  python2.7 python3.5 python2.7-dev python3.5-dev
 
 cd opencv
